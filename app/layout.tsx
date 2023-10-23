@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${quicksand.variable}`} suppressHydrationWarning>
-      <body className='bg-gradient-to-br from-neutral-950 to-neutral-800'>{children}</body>
+      <body className='bg-gradient-to-br bg-noise bg-contain from-neutral-950 to-neutral-800'>{children}</body>
     </html>
   )
 }
